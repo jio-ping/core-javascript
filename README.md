@@ -18,3 +18,7 @@
 - [x] condition-3 [바로가기](https://github.com/jio-ping/core-javascript/blob/01.core/client/chapter/core/09-3.condition.js)
 - [x] condition-4 [바로가기](https://github.com/jio-ping/core-javascript/blob/01.core/client/chapter/core/09-4.condition.js)
 - [x] loop-1 [바로가기](https://github.com/jio-ping/core-javascript/blob/01.core/client/chapter/core/10-1.loop.js)
+- [x] loop-2 [바로가기](https://github.com/jio-ping/core-javascript/blob/01.core/client/chapter/core/10-1.loop.js)
+- [x] loop-3 [바로가기](https://github.com/jio-ping/core-javascript/blob/01.core/client/chapter/core/10-3.loop.js)
+- [x] loop-4 [바로가기](https://github.com/jio-ping/core-javascript/blob/01.core/client/chapter/core/10-4.loop.js)
+- [x] loop-5 [바로가기](https://github.com/jio-ping/core-javascript/blob/01.core/client/chapter/core/10-5.loop.js)
