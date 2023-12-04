@@ -128,7 +128,7 @@ function setStyle(node, prop, value) {
 }
 
 function css(node, prop, value) {
-  if (isvalidStyleProp(node, prop)) {
+  if (prop in node.style) {
     if (!value) {
       return getStyle(node, prop);
     } else {
@@ -139,14 +139,14 @@ function css(node, prop, value) {
   }
 }
 
-function beomCss(node, prop, value) {
-  return !value ? getStyle(node, prop) : setStyle(node, prop);
-}
-
 function isvalidStyleProp(node, prop) {
   if (typeof node === 'string') node = document.querySelector(node);
   let validProp = Object.values(getComputedStyle(node, null));
   return validProp.indexOf(prop) !== -1;
+}
+
+function beomCss(node, prop, value) {
+  return !value ? getStyle(node, prop) : setStyle(node, prop);
 }
 
 /*
